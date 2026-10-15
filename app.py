@@ -3,7 +3,7 @@ import os, json
 from datetime import datetime
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="RCCG Debate Live", layout="wide", page_icon="🎤")
+st.set_page_config(page_title="AI Debate Assistant", layout="wide", page_icon="🎤")
 
 role = st.query_params.get("role", "judge")
 is_audience_view = (role == "audience")
