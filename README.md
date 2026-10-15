@@ -13,12 +13,12 @@ Built for **RCCG New Hope of Life Area** Debate.
 ### The 2 Links Logic
 This app runs once but shows 2 different screens based on URL parameter `?role=`
 
-- **Judge:** `https://your-app-name.streamlit.app/?role=judge`
+- **Judge:** `https://ted-ai-debate-assistant.streamlit.app/?role=judge`
     - Shows TIMER + JUDGE + AUDIENCE VOTE tabs.
     - Set Team Names, Topic, Speaker Names (syncs to audience).
     - Reset scores per team or all.
 
-- **Audience Link:** `https://your-app-name.streamlit.app/?role=audience`
+- **Audience Link:** `https://ted-ai-debate-assistant.streamlit.app/?role=audience`
     - Shows VOTE ONLY
     - No scores, no timer, voting numbers hidden.
     - Names and Topic auto-sync from judge side.
